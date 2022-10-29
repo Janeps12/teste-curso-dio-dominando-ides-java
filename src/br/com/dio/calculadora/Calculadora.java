@@ -8,7 +8,7 @@ public class Calculadora {
 		Scanner scan = new Scanner(System.in);
 		
 		int a, b;
-		
+				
 		System.out.println("Digite o primeiro valor: ");
 		a = scan.nextInt();
 		System.out.println("Digite o segundo valor: ");
@@ -32,14 +32,16 @@ public class Calculadora {
 	public static int subtracao(int a, int b) {
 		return a - b;
 	}
-
-	public static int divisao(int a, int b) {
-		return a / b;
-	}
 	
 	public static int multiplicacao(int a, int b) {
 		return a * b;
 	}
+	
+	public static int divisao(int a, int b) {
+		return  a / b;
+	}
+	
+	
 }
 
 
